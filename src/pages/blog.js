@@ -9,6 +9,7 @@ const BlogPage = ({ data }) => {
   return (
     <Layout>
        <div className="post-list">
+         <p>This semester, I'm taking a personal branding class which requires I blog twice a week! Feel free to peruse.  I hope you enjoy my musings.</p>
         {posts.map(post => (
           <div key={post.node.id} className="post-list__item">
             <div className="post-list__thumbnail">
