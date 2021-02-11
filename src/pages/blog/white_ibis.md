@@ -2,7 +2,7 @@
 path: /blog/white-ibis
 title: Trash Dinosaurs
 date: 2021-02-11
-thumbnail: "../../images/bin_chicken.jpg"
+thumbnail: "../../images/bin_chicken_square.jpg"
 tags: ['australia']
 ---
 
