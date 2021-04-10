@@ -1,0 +1,22 @@
+.nav_ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(211, 246, 255);
+  }
+  
+  .nav_li {
+    display: block;
+    color: rgb(0, 82, 102);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+ .nav_li:hover {
+    background-color:rgb(180, 237, 252);
+  }
+  

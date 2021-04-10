@@ -1,2 +1,24 @@
 @import 'button';
 @import 'posts';
+@import 'container';
+@import 'nav';
+@import 'layout';
+@import 'tag';
+@import 'taglist';
+@import 'enormous';
+
+body {
+    margin: 0;
+    background-color: rgb(211, 246, 255);
+    // -webkit-font-smoothing: antialiased;
+    // -moz-osx-font-smoothing: grayscale;
+    // color: hsla(0, 0%, 0%, 0.8);
+    // font-family: garamond, serif;
+    // font-weight: normal;
+    // word-wrap: break-word;
+    // font-kerning: normal;
+    // -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+    // -ms-font-feature-settings: "kern", "liga", "clig", "calt";
+    // -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+    // font-feature-settings: "kern", "liga", "clig", "calt";
+  }

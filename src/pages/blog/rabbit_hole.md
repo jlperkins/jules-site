@@ -1,5 +1,5 @@
 ---
-path: /blog/rabbit-hold
+path: /blog/rabbit_hole
 title: A Trip Down the Internet Rabbit Hole
 date: 2021-02-10
 thumbnail: "../../images/fieribaby.png"

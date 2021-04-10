@@ -1,5 +1,5 @@
 ---
-path: /blog/ugly-blog
+path: /blog/ugly_blog
 title: The "Before"
 date: 2021-02-08
 thumbnail: "../../images/ugly_blog.png"

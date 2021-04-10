@@ -1,0 +1,18 @@
+.tag {
+    // border: 1px;
+    // border-style: solid;
+    font-size:12px;
+    display: inline-block;
+    // width: 50px;
+    border: 2px solid rgb(180, 237, 252);
+    background-color: rgb(180, 237, 252);
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+.tag:hover {
+    background-color: rgb(180, 237, 252);
+    border: 2px solid rgb(107, 198, 223);
+
+}

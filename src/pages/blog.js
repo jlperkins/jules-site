@@ -9,7 +9,7 @@ const BlogPage = ({ data }) => {
   return (
     <Layout>
        <div className="post-list">
-         <p>This semester, I'm taking a personal branding class which requires I blog twice a week! Feel free to peruse.  I hope you enjoy my musings.</p>
+         <p>This semester, I'm taking a personal branding class which requires I blog! Feel free to peruse.  I hope you enjoy my musings.</p>
         {posts.map(post => (
           <div key={post.node.id} className="post-list__item">
             <div className="post-list__thumbnail">
@@ -23,13 +23,13 @@ const BlogPage = ({ data }) => {
             <h2>{post.node.frontmatter.title}</h2>
             {post.node.frontmatter.tags ? (
                 <div className="tags-container">
-                    <ul className="taglist">
+                    <div className="taglist">
                     {post.node.frontmatter.tags.map(tag => (
-                        <li key={tag + `tag`}>
+                        <div className="tag" key={tag + `tag`}>
                         <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                        </li>
+                        </div>
                     ))}
-                    </ul>
+                    </div>
                 </div>
                 ) : null}
             <p>{post.node.frontmatter.date}</p>
