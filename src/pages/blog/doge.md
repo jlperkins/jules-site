@@ -1,6 +1,6 @@
 ---
 path: /blog/doge
-title: How to Spot the Next Dogecoin
+title: How to GET RICH QUICK
 date: 2021-04-19
 thumbnail: "../../images/doge.jpg"
 tags: ['finance', 'math']
