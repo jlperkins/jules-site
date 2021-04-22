@@ -9,12 +9,15 @@ import Button from "../components/button"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`jules`, `perkins`, `personal website`]} />
-    <div className="enormous">jules perkins</div>
+    <div className="enormous">
+      <p>jules</p>
+      <p>perkins</p>
+    </div>
     {/* <Button buttonText="An example button that does nothing" /> */}
-    <p style={{
+    {/* <p style={{
       marginTop: 200
     }}
-    >...and her work-in-progress website. :)</p>
+    >...and her work-in-progress website. :)</p> */}
     {/* <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div> */}

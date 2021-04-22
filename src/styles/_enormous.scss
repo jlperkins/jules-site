@@ -3,6 +3,13 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:  rgb(0, 82, 102);
     font-weight: 900;
-    font-size: 200px;
-    bottom: 5px;
+    font-size: 13vmax;
+    bottom: 1vh;
+    left: 3vw;
+    position: absolute;
+}
+
+.enormous > p {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }

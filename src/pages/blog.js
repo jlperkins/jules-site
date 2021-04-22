@@ -8,7 +8,7 @@ const BlogPage = ({ data }) => {
   const posts = data.allMarkdownRemark.edges;
   return (
     <Layout>
-       <div className="post-list">
+       <div>
          <p>This semester, I'm taking a personal branding class which requires I blog! Feel free to peruse.  I hope you enjoy my musings.</p>
         {posts.map(post => (
           <div key={post.node.id} className="post-list__item">
